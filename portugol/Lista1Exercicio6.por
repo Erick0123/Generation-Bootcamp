@@ -1,30 +1,36 @@
 programa
 {
-    funcao inicio()
-    {
-		 const inteiro LINHA=3, COLUNA=3
-		 inteiro somaValor
-		 inteiro mat[LINHA][COLUNA]
-		 inteiro x=0,y=0
-		 
-		 pare  ( x=0;x<LINHA;x++)
-		 {
-		 	escreva("Digite seu valor: ")
-		 	leia(x)
-		 	pare (y=0;y<COLUNA;y++)
-		 	{
-		 		somaValor=somaValor+mat[LINHA][COLUNA]
-		 	}
-		 
-		 }
+	
+	funcao inicio()
+	{
+		real x1 
+		real x2
+		real y1
+		real y2
+		real d
+		
+		escreva("Escreva x1: ")
+		leia(x1)
+		escreva("Escreva x2: ")
+		leia(x2)
+		escreva("Escreva y1: ")
+		leia(y1)
+		escreva("Escreva y2: ")
+		leia(y2)
+		
+		
+		d= (((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1)))
+		escreva("Valor do Calculo: "+d)
 	}
+
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 141; 
+ * @POSICAO-CURSOR = 281; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
