@@ -2,7 +2,7 @@ package Lista2;
 
 import java.util.Scanner;
 
-public class LaçoCondicionalExercicio1 {
+public class DesvioCondicionalExercicio1 {
 
 	public static void main(String[] args) {
 		
