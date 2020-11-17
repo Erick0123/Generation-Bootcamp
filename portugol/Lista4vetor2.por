@@ -10,7 +10,7 @@
 		  *  A seguir determine e imprima a média aritmética dos lançamentos, contabilize 
 		  *  e apresente também quantas foram as ocorrências da maior pontuação.
 		  */
-		  const inteiro NUMERO=5
+		  const inteiro NUMERO=10
 		  inteiro lancador [NUMERO]
 		  inteiro somaLancamento=0
 		  inteiro maiorPontuacao=0
@@ -18,7 +18,7 @@
 
 		  para(inteiro x=0;x<NUMERO;x++)
 		  {
-		  	lancador[x]= Util.sorteia(1, 6)
+		  	lancador[x]= Util.sorteia(1, 9)
 		  	escreva("\nValor Correspondente ",x+1,": ", lancador[x])
 		  	somaLancamento= somaLancamento + lancador[x]
 		  	se (lancador[x]>=maiorPontuacao)
@@ -43,7 +43,7 @@
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1119; 
+ * @POSICAO-CURSOR = 1112; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
