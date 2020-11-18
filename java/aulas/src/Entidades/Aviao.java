@@ -10,6 +10,10 @@ public class Aviao {
 	{
 		System.out.println("Motor do Aviao ligado");
 	}
+	public void desliga()
+	{
+		System.out.println("Motor do aviao desligado");
+	}
 	public void acelera(double kmh)
 	{
 		double velocidade=this.velocidadeMinima+kmh;
@@ -44,4 +48,5 @@ public class Aviao {
 		}
 			return 0;
 	}
+	
 }

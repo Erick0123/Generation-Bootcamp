@@ -21,6 +21,7 @@ public class viajar {
 		meuAviao.desacelera(200);
 		System.out.println(meuAviao.velocidadeMaxima);
 		meuAviao.pousa();
+		meuAviao.desliga();
 	}
 
 }
