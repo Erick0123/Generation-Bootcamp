@@ -1,4 +1,4 @@
-package Entidades;
+package Lista7;
 
 public class Vendendor extends Pessoa {
 	private double valorVendas;

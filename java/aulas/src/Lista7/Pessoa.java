@@ -1,4 +1,4 @@
-package Entidades;
+package Lista7;
 
 public class Pessoa {
 	private String nome;

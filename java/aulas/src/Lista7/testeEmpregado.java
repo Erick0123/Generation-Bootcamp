@@ -1,7 +1,5 @@
 package Lista7;
 
-import Entidades.Empregado;
-
 public class testeEmpregado {
 	public static void main(String[] args) {
 		Empregado empregado1 = new Empregado("Erick","av.loka","4523-4546",1,2000,20);

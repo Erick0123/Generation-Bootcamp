@@ -1,4 +1,4 @@
-package Entidades;
+package Lista7;
 
 public class Administrador extends Pessoa{
 	private double ajusteCusto;

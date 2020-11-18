@@ -1,4 +1,4 @@
-package Entidades;
+package Lista7;
 
 public class Operario extends Pessoa {
 	private double valorProducao;

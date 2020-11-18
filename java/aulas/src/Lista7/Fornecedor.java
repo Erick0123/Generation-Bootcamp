@@ -1,4 +1,4 @@
-package Entidades;
+package Lista7;
 
 public class Fornecedor extends Pessoa {
 	private double valorCredito;
