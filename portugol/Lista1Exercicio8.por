@@ -28,7 +28,7 @@ programa
 		percImpostos=custoFabrica* 0.45
 		custoConsumidor= (custoFabrica+percImpostos+percDistribuidor)
 			
-		escreva ("\nCusto do Consumidor = ",custoConsumidor)
+		escreva ("\nCusto do Consumidor = ",custoConsumidor )
 
 		
 		
@@ -39,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 640; 
+ * @POSICAO-CURSOR = 895; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
