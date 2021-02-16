@@ -1,5 +1,4 @@
 delete from funcionarios
-
 #deletar a posiçao 2 da tabela
 where id= '2';
 
